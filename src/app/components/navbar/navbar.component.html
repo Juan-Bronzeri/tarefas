@@ -1,0 +1,23 @@
+<div class="uk-container">
+    <nav class="uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <li class="uk-navbar-left">
+            <a [routerLink]="['']">
+                <img class="uk-margin-left" data-src="https://store-images.s-microsoft.com/image/apps.46874.37ea8e43-6d69-48a4-a8da-47580dfe55b5.cf90a1b2-49f6-4c7d-9984-f3d287b579c2.4adf6cdc-92cc-4260-bdb3-cca09c2ea124.png" width="40" height="40" alt="" uk-img>
+            </a>
+        </li>
+        <div class="uk-navbar-right">
+            <div class="uk-navbar-nav">
+                <li>
+                    <a [routerLink]="['/account']">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>
+                    </a>
+                </li>
+                <li>
+                    <a [routerLink]="['/login']">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-out"></span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+</div>

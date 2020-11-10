@@ -1,0 +1,6 @@
+{
+    "/api": {
+        "target": "http://http://152.249.244.127:6080/testeapi/api",
+        "secure": false
+    }
+}
